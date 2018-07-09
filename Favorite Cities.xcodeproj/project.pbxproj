@@ -14,6 +14,7 @@
 		4A050B2720F3A72300145B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A050B2620F3A72300145B35 /* Assets.xcassets */; };
 		4A050B2A20F3A72300145B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A050B2820F3A72300145B35 /* LaunchScreen.storyboard */; };
 		4A050B3520F3A72300145B35 /* Favorite_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050B3420F3A72300145B35 /* Favorite_CitiesTests.swift */; };
+		4A050B4020F3ACA000145B35 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050B3F20F3ACA000145B35 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4A050B3020F3A72300145B35 /* Favorite CitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A050B3420F3A72300145B35 /* Favorite_CitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CitiesTests.swift; sourceTree = "<group>"; };
 		4A050B3620F3A72300145B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A050B3F20F3ACA000145B35 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				4A050B1D20F3A71F00145B35 /* AppDelegate.swift */,
 				4A050B1F20F3A71F00145B35 /* MasterViewController.swift */,
+				4A050B3F20F3ACA000145B35 /* City.swift */,
 				4A050B2120F3A71F00145B35 /* DetailViewController.swift */,
 				4A050B2320F3A71F00145B35 /* Main.storyboard */,
 				4A050B2620F3A72300145B35 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			files = (
 				4A050B2220F3A71F00145B35 /* DetailViewController.swift in Sources */,
 				4A050B2020F3A71F00145B35 /* MasterViewController.swift in Sources */,
+				4A050B4020F3ACA000145B35 /* City.swift in Sources */,
 				4A050B1E20F3A71F00145B35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
