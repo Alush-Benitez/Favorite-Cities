@@ -91,6 +91,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="City Details" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="cityTextField" destination="Zfl-Px-rXx" id="xsS-nT-fcJ"/>
+                        <outlet property="imageView" destination="drk-fF-WkJ" id="4l4-SF-hss"/>
+                        <outlet property="populationTextField" destination="Zea-Pc-f6T" id="wKh-4e-WzJ"/>
+                        <outlet property="stateTextField" destination="CtM-Z9-p6A" id="SZG-sA-yUh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
